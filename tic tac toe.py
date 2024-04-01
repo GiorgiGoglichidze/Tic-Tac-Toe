@@ -28,7 +28,7 @@ def playermakemove(board):
             if board[index]=="-":
                 board[index] = player
             else:
-                print("Wrong input nigga try again")
+                print("Wrong input try again")
                 playermakemove(board)
 
 
@@ -224,7 +224,7 @@ elif question == "1":
             changeturns()
     else:
 
-        print("Wrong input try again nigga")
+        print("Wrong input try again")
 
 
 
